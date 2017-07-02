@@ -4,9 +4,9 @@ using namespace std;
 int main()
 {
 	int a=2,b=2;
-	a++;
-	cout<<a<<endl;
-	b=++a;
-	cout<<b<<endl;
+	a++;//a=3
+	cout<<a<<endl;//3
+	b=++a;//4
+	cout<<b<<endl;//4
 	return 0;
 }
